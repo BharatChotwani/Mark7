@@ -17,6 +17,7 @@ body {
     padding: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
+    border-bottom-left-radius: 20px;
 }
 
 .head-img {
@@ -55,4 +56,28 @@ body {
     height: 25vh;
     background: white;
     overflow: scroll;
+    border: #66fcf1 4px solid;
+    border-radius: 5%;
+}
+
+#btn-translate {
+    background: #66fcf1;
+    border: none;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+footer div {
+    display: block;
+    background: #66fcf1;
+    height: 20vh;
+    width: 100%;
+    margin-top: 0.5rem;
+    border-top-right-radius: 20px;
 }
